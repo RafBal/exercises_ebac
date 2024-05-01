@@ -25,13 +25,13 @@
             Então deve exibir a <mensagem> de falha
 
             Exemplos:
-            | campo obrigatório faltante | mensagem                               |
-            | Nome                       | "Faltou digitar o nome."               |
-            | Sobrenome                  | "Faltou digitar o sobrenome."          |
-            | País                       | "Faltou digitar o país."               |
-            | Endereço                   | "Faltou digitar o endereço."           |
-            | Cidade                     | "Faltou digitar a cidade."             |
-            | CEP                        | "Faltou digitar o CEP."                |
-            | Telefone                   | "Faltou digitar o telefone."           |
-            | Endereço de e-mail         | "Faltou digitar o endereço de e-mail." |
+            | campo obrigatório faltante |exemplo de preenchimento inválido |mensagem                               |
+            | Nome                       |               .                  |"Faltou digitar o nome."               |
+            | Sobrenome                  |              .,.                 |"Faltou digitar o sobrenome."          |
+            | País                       |               *                  |"Faltou digitar o país."               |
+            | Endereço                   |               ""                 |"Faltou digitar o endereço."           |
+            | Cidade                     |               8                  |"Faltou digitar a cidade."             |
+            | CEP                        |               ç                  |"Faltou digitar o CEP."                |
+            | Telefone                   |               @                  |"Faltou digitar o telefone."           |
+            | Endereço de e-mail         |            "vazio"               |"Faltou digitar o endereço de e-mail." |
 
