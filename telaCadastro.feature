@@ -25,13 +25,13 @@
             Então deve exibir a <mensagem> de falha
 
             Exemplos:
-            | campo obrigatório faltante |exemplo de preenchimento inválido |mensagem                               |
-            | Nome                       |               .                  |"Faltou digitar o nome."               |
-            | Sobrenome                  |              .,.                 |"Faltou digitar o sobrenome."          |
-            | País                       |               *                  |"Faltou digitar o país."               |
-            | Endereço                   |               ""                 |"Faltou digitar o endereço."           |
-            | Cidade                     |               8                  |"Faltou digitar a cidade."             |
-            | CEP                        |               ç                  |"Faltou digitar o CEP."                |
-            | Telefone                   |               @                  |"Faltou digitar o telefone."           |
-            | Endereço de e-mail         |            "vazio"               |"Faltou digitar o endereço de e-mail." |
+            | Nome                       | Sobrenome                  | País                      | Endereço                   | Cidade                     | CEP                        | Telefone                   | Endereço de e-mail         | Mensagem de resultado                 |
+            |                            | Cortella                   | Portugal                  | 330, Rua de São Pedro      | Braga                      | 123456                     | 12345679                   | cortela@outlook.com        | "Faltou digitar o nome."              |
+            | Roberta                    |                            | Brasil                    | 29, Rua dos Loures         | Macapá                     | 489784894                  | 971346861                  | roberta@gmail.com          | "Faltou digitar o sobrenome.          |
+            | William                    | Lane                       |                           | 56, Green Channel Street   | Bristol                    | 48948948                   | 251879134                  | lane@bill.co               | "Faltou digitar o país."              |
+            | Irma                       | Sikorová                   | Chéquia                   |                            | Pilsen                     | 3697                       | 96631441                   | irma@gov.com.cz            | "Faltou digitar o endereço."          |
+            | Emilia                     | Wagner                     | Áustria                   | 76, Gregor Straße          |                            | 64895214                   | 798787731                  | wagneremilia@yahoo.com     | "Faltou digitar a cidade."            |
+            | Alain                      | Boeres                     | Luxemburgo                | 5, Rue de l'Europe         | Differdange                |                            | 88861796                   | alain@gmail.com            | "Faltou digitar o CEP."               |
+            | Rik                        | Pollet                     | Bélgica                   | 78, Rue St. Sébastian      | Arlon                      | 9923147                    |                            | pollet@uni.be              | "Faltou digitar o telefone."          |
+            | Axelle                     | Bossuet                    | França                    | 12, Rue de l'Hopital jaune | Marselle                   | 1687974                    | 94489145678                |                            | "Faltou digitar o endereço de e-mail."|
 
